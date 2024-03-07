@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A88AB0DB-65BB-4749-8E14-A9D31D3AF0EA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEC0E8B7-FEBC-40F7-AEAF-468868ED7FF3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/domain/errors/UserAccountErrorResponse.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "init(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87ECC9E4-2E34-4E6D-A743-2CD6C95F3B31"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/application/services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "verifyEmail(email:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B840BF75-70BD-4EF8-A271-22A028693356"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/presentation/viewModels/AuthenticationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "login(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8675FE3-E913-4D77-892E-BD6160A62B7A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/presentation/viewModels/AuthenticationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "login(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AD02782-0D13-4FE3-A93B-3621D2431A29"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/presentation/view_models/AuthenticationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "sign_in(email:password1:password2:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BF483D9-4DCB-49AD-B290-24279FB71292"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/application/services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "requestWithJSONBody(url:method:body:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8BF483D9-4DCB-49AD-B290-24279FB71292 - 7358291c54369802"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1236">
+               </Location>
+               <Location
+                  uuid = "8BF483D9-4DCB-49AD-B290-24279FB71292 - 7358291c54369802"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "349F8767-17E4-430E-9C55-92F263938F32"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/application/services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "requestWithJSONBody(url:method:body:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "349F8767-17E4-430E-9C55-92F263938F32 - 7358291c543698e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "1540">
+               </Location>
+               <Location
+                  uuid = "349F8767-17E4-430E-9C55-92F263938F32 - 7358291c543698e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "1356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA94F03C-214C-4CE3-B7F3-FB90BDB28BF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/application/services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "requestWithJSONBody(url:method:body:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA94F03C-214C-4CE3-B7F3-FB90BDB28BF7 - 7358291c54369802"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1236">
+               </Location>
+               <Location
+                  uuid = "AA94F03C-214C-4CE3-B7F3-FB90BDB28BF7 - 7358291c54369802"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1480">
+               </Location>
+               <Location
+                  uuid = "AA94F03C-214C-4CE3-B7F3-FB90BDB28BF7 - 7358291c5436985c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+               <Location
+                  uuid = "AA94F03C-214C-4CE3-B7F3-FB90BDB28BF7 - 7358291c5436985c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "1544">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94A58AB3-9FAF-420C-8475-E2ADEA8E6C29"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/application/services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "requestWithJSONBody(url:method:body:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "94A58AB3-9FAF-420C-8475-E2ADEA8E6C29 - 7358291c54369944"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "1180">
+               </Location>
+               <Location
+                  uuid = "94A58AB3-9FAF-420C-8475-E2ADEA8E6C29 - 7358291c54369967"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "700">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B34238AF-CDE8-432A-A5E8-6B25B0B74CBE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/application/services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "signIn(email:password1:password2:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F60D0761-5B43-4DEB-8C96-A7BC0FBF0F87"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/application/services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "signIn(email:password1:password2:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47CFCFC6-C83E-4C1A-95DA-24C03FB44DD5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/presentation/view_models/AuthenticationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "handleError(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "47CFCFC6-C83E-4C1A-95DA-24C03FB44DD5 - f92e3cf13f5dc0ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "store.AuthenticationViewModel.handleError(Swift.Error) -&gt; ()"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/presentation/view_models/AuthenticationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "832">
+               </Location>
+               <Location
+                  uuid = "47CFCFC6-C83E-4C1A-95DA-24C03FB44DD5 - f92e3cf13f5dc0ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "store.AuthenticationViewModel.handleError(Swift.Error) -&gt; ()"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/presentation/view_models/AuthenticationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "888">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6DAFF67-86CF-41E0-9B99-F359B2AFA6CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/presentation/view_models/AuthenticationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "sign_in(email:password1:password2:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F42B098-D842-4C6F-8FBD-41F1450EC343"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/presentation/view_models/AuthenticationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "handleError(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4F42B098-D842-4C6F-8FBD-41F1450EC343 - f92e3cf13f5dc05a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "store.AuthenticationViewModel.handleError(Swift.Error) -&gt; ()"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/presentation/view_models/AuthenticationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "576">
+               </Location>
+               <Location
+                  uuid = "4F42B098-D842-4C6F-8FBD-41F1450EC343 - f92e3cf13f5dc05a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "store.AuthenticationViewModel.handleError(Swift.Error) -&gt; ()"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/presentation/view_models/AuthenticationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9F725ED-EA8B-465A-85E8-BF1C40EB7444"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/application/services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "requestWithJSONBody(url:method:body:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9F725ED-EA8B-465A-85E8-BF1C40EB7444 - 7358291c5436979e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "D9F725ED-EA8B-465A-85E8-BF1C40EB7444 - 7358291c5436979e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "D9F725ED-EA8B-465A-85E8-BF1C40EB7444 - 7358291c5436979e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "D9F725ED-EA8B-465A-85E8-BF1C40EB7444 - 7358291c5436979e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  uuid = "D9F725ED-EA8B-465A-85E8-BF1C40EB7444 - 7358291c5436979e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "D9F725ED-EA8B-465A-85E8-BF1C40EB7444 - 7358291c5436979e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "D9F725ED-EA8B-465A-85E8-BF1C40EB7444 - 7358291c5436979e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "D9F725ED-EA8B-465A-85E8-BF1C40EB7444 - 7358291c5436979e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data, __C.NSURLResponse) throws -&gt; Foundation.Data in store.AuthService.requestWithJSONBody&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Encodable&gt;(url: Foundation.URL, method: Swift.String, body: Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; Combine.AnyPublisher&lt;store.UserAccountResponseModel, Swift.Error&gt;"
+                  moduleName = "store"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ditsy/Ios/store/store/features/auth/application/services/AuthService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "408">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BA01F5B-2D5A-413F-8030-275A27FBCF5E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/application/services/AuthService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "requestWithJSONBody(url:method:body:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F8B71EC-4C98-450C-8DC5-0ECEB5C05FC6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/domain/errors/UserAccountErrorResponse.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "init(email:password:password1:password2:non_field_errors:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA6D08B2-C222-4015-B2DD-CD0AADCF44F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/features/auth/presentation/view_models/AuthenticationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "sign_in(email:password1:password2:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E86C557A-0AA7-4478-83E0-0731EB602A23"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "store/core/iterations/NavigationItemView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,17 +1,15 @@
-//
-//  storeApp.swift
-//  store
-//
-//  Created by Jorge Hospinal Flores on 9/02/24.
-//
-
+// storeApp.swift
 import SwiftUI
 
 @main
 struct storeApp: App {
+    
+    let authManager = AuthenticationManager() // Instantiate AuthenticationManager
+        
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(authManager) // Pass authManager as an environment object
         }
     }
 }
